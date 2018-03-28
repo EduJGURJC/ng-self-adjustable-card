@@ -1,0 +1,15 @@
+<div fxLayout="column" fxFlexFill>
+  <mat-card fxFlex class="sa-card">
+    <div fxLayout="column" fxFlexFill>
+      <mat-card-title fxLayoutAlign="{{titleAlignHorizontal}} {{titleAlignVertical}}" class="sa-card-title">
+        <ng-content select="sa-card-title"></ng-content>
+      </mat-card-title>
+      <mat-divider class="sa-card-divider"></mat-divider>
+      <mat-card-content fxFlex class="sa-card-content">
+        <div fxLayout="column" fxLayoutAlign="{{contentAlignHorizontal}} {{contentAlignVertical}}" fxFlexFill>
+          <ng-content select="sa-card-content"></ng-content>
+        </div>
+      </mat-card-content>
+    </div>
+  </mat-card>
+</div>
