@@ -14,4 +14,4 @@ import { SelfAdjustableCardComponent } from './self-adjustable-card/self-adjusta
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class AppModule {}
+export class SelfAdjustableCardModule {}
